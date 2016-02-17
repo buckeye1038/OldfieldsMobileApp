@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@mipmap/home"
+            android:title="@string/Home"/>
+        <item
+            android:id="@+id/nav_Food"
+            android:icon="@mipmap/food_item"
+            android:title="@string/Food"/>
+        <item
+            android:id="@+id/nav_Draft"
+            android:icon="@mipmap/draft_beer"
+            android:title="@string/Draft"/>
+        <item
+            android:id="@+id/nav_Beer"
+            android:icon="@mipmap/beer_bottle"
+            android:title="@string/Beer"/>
+        <item
+            android:id="@+id/nav_Spirits"
+            android:icon="@mipmap/liquor"
+            android:title="@string/Spirits"/>
+        <item
+            android:id="@+id/nav_Specials"
+            android:icon="@mipmap/specials"
+            android:title="@string/Specials"/>
+        <item
+            android:id="@+id/nav_Events"
+            android:icon="@mipmap/events"
+            android:title="@string/Events"/>
+    </group>
+
+    <item android:title="@string/Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Contact"
+                android:icon="@mipmap/contact_us"
+                android:title="@string/Contact"/>
+        </menu>
+    </item>
+
+</menu>

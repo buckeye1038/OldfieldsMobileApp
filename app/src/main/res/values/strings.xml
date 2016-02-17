@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Oldfield\'s North Fourth Tavern</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_food">Food activity</string>
+    <string name="test">Test Text</string>
+
+    <!-- Navigation Drawer-->
+    <string name="Home">Home</string>
+    <string name="Food">Food Menu</string>
+    <string name="Draft">Ohio Draft Beers</string>
+    <string name="Beer">Ohio Beers</string>
+    <string name="Spirits">Ohio Spirits</string>
+    <string name="Specials">Specials</string>
+    <string name="Contact">Contact Us</string>
+    <string name="Communicate">Communicate</string>
+    <string name="Events">Events</string>
+
+    <!-- Main Activity-->
+    <string name="welcome">
+        Oldfield’s North Fourth Tavern has proudly poured 95+ Ohio Breweries since 2013.
+        Our selection of Ohio Draft Beer is constantly rotating, so check our beer menu page that
+        is updated regularly. Stop on in and try something new, local and delicious!
+    </string>
+    <string name="visa">visa</string>
+    <string name="mastercard">mastercard</string>
+    <string name="am_express">am_express</string>
+    <string name="discover">discover</string>
+    <string name="hours_header">Regular Hours</string>
+
+    <!-- Contact Text-->
+    <string name="phone_number">(614) 291&#8211;5598</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="website">www.OldfieldsOSU.com</string>
+    <string name="twitter_link">https://twitter.com/OldfieldsOSU</string>
+    <string name="facebook_link">https://www.facebook.com/OldfieldsNorthFourthTavern</string>
+    <string name="instagram_link">http://instagram.com/oldfieldsosu</string>
+    <string name="yelp_link">http://www.yelp.com/biz/oldfields-north-fourth-tavern-columbus</string>
+    <string name="urbanspoon_link">http://www.urbanspoon.com/r/33/371768/restaurant/University-District/Oldfields-North-Fourth-Tavern-Columbus</string>
+
+    <!-- ListView Text-->
+    <string name="beer_prices1">* $4</string>
+    <string name="beer_prices2">** $5</string>
+    <string name="beer_prices3">*** $6</string>
+
+    <!-- Specials Text-->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="weekly">Weekly</string>
+
+
+</resources>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.havvyapps.oldfields_new.MainActivity"
+    tools:showIn="@layout/contact_app_bar"
+    android:layout_weight="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/social_parent">
+
+        <ImageView
+            style="@style/padding_lr"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/instagram"
+            android:src="@mipmap/instagram"
+            android:contentDescription="@string/instagram_link"
+            android:layout_weight="1"/>
+
+        <ImageView
+            style="@style/padding_lr"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/twitter"
+            android:src="@mipmap/twitter"
+            android:contentDescription="@string/twitter_link"
+            android:layout_weight="1"/>
+
+        <ImageView
+            style="@style/padding_lr"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/facebook"
+            android:src="@mipmap/facebook"
+            android:contentDescription="@string/facebook_link"
+            android:layout_weight="1"/>
+
+        <ImageView
+            style="@style/padding_lr"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/yelp"
+            android:src="@mipmap/yelp"
+            android:contentDescription="@string/yelp_link"
+            android:layout_weight="1"/>
+
+        <ImageView
+            style="@style/padding_lr"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:id="@+id/urbanspoon"
+            android:src="@mipmap/urbanspoon"
+            android:contentDescription="@string/urbanspoon_link"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <TextView
+        style="@style/padding"
+        android:autoLink="phone"
+        android:linksClickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number"
+        android:text="@string/phone_number"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/social_parent"
+        android:paddingTop="@dimen/activity_vertical_margin"/>
+
+
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/phone_number"
+              android:layout_centerHorizontal="true"
+              android:id="@+id/map"
+              tools:context=".ContactActivity"
+              android:name="com.google.android.gms.maps.SupportMapFragment" />
+</RelativeLayout>

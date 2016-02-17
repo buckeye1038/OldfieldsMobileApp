@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.havvyapps.oldfields_new"
+          android:versionCode="1"
+          android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".App">
+        <activity
+            android:name="com.havvyapps.oldfields_new.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.havvyapps.oldfields_new.FoodActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.havvyapps.oldfields_new.SpiritsActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.havvyapps.oldfields_new.DraftActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.havvyapps.oldfields_new.SpecialsActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.havvyapps.oldfields_new.ContactActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.havvyapps.oldfields_new.BeerActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.havvyapps.oldfields_new.EventsActivity"
+            android:theme="@style/AppTheme"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="ec566ffa9d9178fe305e75fad2bb102492df5353" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <meta-data
+            android:name="com.parse.APPLICATION_ID"
+            android:value="RSvkNg2iMMcwLT7YIFll0gpTsriudjPatMaGiswy" />
+        <meta-data
+            android:name="com.parse.CLIENT_KEY"
+            android:value="6w7ziCepISwC6Ls1DZXenA6mTLi8BFqPPJJfyTJs" />
+
+    </application>
+
+</manifest>
